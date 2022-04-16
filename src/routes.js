@@ -6,15 +6,14 @@ import { body } from 'express-validator';
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.status(200).send({
-        title: "Simple Books API",
-        version: "1.0.0"
-    });
-});
+	// #swagger.tags = ['Home']
+	// #swagger.summary = 'Initial API endpoint'
+	// #swagger.description = 'This is just the initial API endpoint.'
 
-router.get('/healt-check', (req, res) => {
-    res.status(200);
-    res.send('Application working!');
+	res.status(200).send({
+			title: "Simple Books API",
+			version: "1.0.0"
+	});
 });
 
 router.get('/books', controller.index);
