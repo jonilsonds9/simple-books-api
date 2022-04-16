@@ -1,0 +1,28 @@
+{
+  "name": "simple-books-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "swagger-autogen": "node swagger.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonilsonds9/simple-books-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonilsonds9/simple-books-api/issues"
+  },
+  "homepage": "https://github.com/jonilsonds9/simple-books-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "swagger-autogen": "^2.21.0",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
