@@ -5,7 +5,7 @@ const doc = {
     title: 'Simple Book API',
     description: 'This application makes a basic crud of books in memory and is documented using swagger',
   },
-  host: 'localhost:3000',
+  host: 'simple-books-api-express.herokuapp.com',
   schemes: ['http'],
   consumes: ['application/json'],
   produces: ['application/json'],

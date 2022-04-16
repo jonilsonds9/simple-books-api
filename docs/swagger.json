@@ -5,7 +5,7 @@
     "description": "This application makes a basic crud of books in memory and is documented using swagger",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "simple-books-api-express.herokuapp.com",
   "basePath": "/",
   "schemes": [
     "http"
