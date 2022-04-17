@@ -3,7 +3,7 @@
 Este projeto é uma simples API de Livros para atividade da disciplina de Implementação e Disponibilização de API da pós graduação em dispositivos móveis da Unijuazeiro.
 
 
-# Para executar
+## Para executar
 
 - Basta instalar as dependências com o npm:
 ```bash
@@ -20,7 +20,13 @@ npm run start
 npm run start-dev
 ```
 
+## Documentação
+
 - Para gerar uma nova documentação automaticamente:
 ```bash
 swagger-autogen
 ```
+
+- Documentação online:
+
+https://simple-books-api-express.herokuapp.com/doc/
